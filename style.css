@@ -1,0 +1,51 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#restaurant-list {
+  margin-top: 20px;
+}
+
+.restaurant {
+  margin-bottom: 10px;
+}
+
+.restaurant-name {
+  font-weight: bold;
+}
+
+.restaurant-rating {
+  color: #888;
+}
